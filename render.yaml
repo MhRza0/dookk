@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: dook-boutique
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev --no-audit --no-fund
+    startCommand: node launcher.mjs --no-open
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: HOST
+        value: 0.0.0.0
+      - key: ADMIN_PASSWORD
+        sync: false

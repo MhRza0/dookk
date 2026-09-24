@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="empty" dir="rtl"><span className="eyebrow">DOOK / 404</span><h1>این صفحه پیدا نشد.</h1><p>ممکن است محصول جابه‌جا شده یا دیگر موجود نباشد.</p><a className="btn" href="/shop">بازگشت به فروشگاه</a></main>}

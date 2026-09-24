@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /checkout
+Disallow: /payment
+Disallow: /order-success
+Disallow: /tracking
+Sitemap: https://dook-boutique.hesam9090.chatgpt.site/sitemap.xml

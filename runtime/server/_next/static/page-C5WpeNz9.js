@@ -1,0 +1,1 @@
+import{t as e}from"./framework~index~page~layout~not-found~page~app-page-cache-render~app-page-cache~app-route-h~zbyk4ag8-js5SCeX0.js";import{n as t}from"./server-CcR9-N17.js";import{t as n}from"./store-DIADyF_w.js";var r=e(),i=`force-dynamic`;async function a(){let e;try{e=await t()}catch{}return(0,r.jsx)(n,{path:`/`,initialProducts:e})}export{a as default,i as dynamic};
